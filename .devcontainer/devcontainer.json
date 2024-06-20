@@ -1,0 +1,24 @@
+{
+    "customizations":  {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "visualstudioexptteam.vscodeintellicode",
+                "GitHub.copilot",
+                "donjayamanne.python-environment-manager",
+                "tomoki1207.pdf"            
+            ],
+            "settings": {
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "/bin/bash"
+                    }
+                },
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    },
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [80, 443, 8080]
+}
