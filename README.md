@@ -2,7 +2,7 @@
 
 #### Este repositorio contiene la configuración base para poder ejecutar Visual Studio Code en un Docker Container
 #### El contenedor se ejecuta sobre linux, con python 3.10
-#### Se instalarán automaticamente las siguientes librerias:
+#### Se instalarán automaticamente las siguientes librerias
 - pydoc-markdown
 - pyyaml
 - colored
