@@ -90,7 +90,7 @@ Algunas de las librerías son las siguientes:
 - nbconvert
 ```
 
-Para ver el total de librerias ejecute el siguiente comando en el Terminal:
+Para ver el total de librerías ejecute el siguiente comando en el Terminal:
 
 ```text
 pip list
