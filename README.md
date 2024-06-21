@@ -147,7 +147,7 @@ Este curso ha sido posible gracias al apoyo de; Matias Bosshardt (director de la
 
 <p align="center">
   <a href="https://duoc.cl">
-    <img src="img/logo_duoc.png" alt="Logo" width=300>
+    <img src="img/logo_duoc.png" alt="Logo" width=600>
   </a>
 
   <!-- <h3 align="center">Logo</h3> -->
