@@ -77,7 +77,6 @@ El entorno de programación viene con 162 librerías pre instaladas.
 Algunas de las librerías son las siguientes:
 
 ```text
-
 - ipykernel
 - numpy
 - pandas
@@ -89,7 +88,6 @@ Algunas de las librerías son las siguientes:
 - scikit-learn
 - tqdm
 - nbconvert
-
 ```
 
 Para ver el total de librerias ejecute el siguiente comando en el Terminal:
@@ -100,7 +98,31 @@ pip list
 
 ## Instalar y ejecutar este entorno de desarrollo
 
-1. Clonar
+1. Crear o seleccione una carpeta donde se descargara este repositorio
+2. Abrir la terminal sobre la carpeta anterior (click derecho sobre la carpeta: Abrir en Terminal (Win) | Servicios-> New terminal at folder (Mac))
+3. Clonar este repositorio en una carpeta local de su computador
+   
+```text
+git clone https://github.com/rsaldias/base_ia_tools_v2
+```
+   
+5. Ingresar a la carpeta base_ia_tools_v2
+
+```text
+cd base_ia_tools_v2
+```
+   
+7. Para abrir VSC sobre esta carpeta, ejecutar
+
+```text
+code .
+```
+   
+9. Si todo va bien usted debería ver
+
+<p align="center">
+    <img src="img/todo_ok" alt="Logo" width=400>
+</p>
 
 El archivo 1_Ejecutar_Carpeta_en_Contenedor.ipynb contiene las instrucciones iniciales para ejecutar el contenedor.
 
