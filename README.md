@@ -20,9 +20,9 @@
 - [Tabla de contenidos](#tabla-de-contenidos)
 - [Prerequisitos](#Prerequisitos)
 - [Instalar y ejecutar este entorno de desarrollo](#instalar-y-ejecutar-este-entorno-de-desarrollo)
-- [Python](#python)
-- [Contenido](#contenido)
-- [Librerías](#librerías)
+- [Contenido del repositorio](#contenido-del-repositorio)
+- [Python Container](#python-container)
+- [Librerías Container](#librerías-container)
 - [Creación y mantención](#creación-y-mantención)
 - [Agradecimientos](#agradecimientos)
 
@@ -72,21 +72,7 @@ code .
 
 10. Desde Visual Studio Code, abrir el archivo **_1_Ejecutar_Carpeta_en_Contenedor.ipynb_** el cual se encuentra en la carpeta herramientas. Este archivo contiene las instrucciones iniciales para ejecutar el contenedor. ¡Buena Suerte!
 
-
-
-## Python
-
-El entorno de desarrollo viene con Python 3.10 y el gestionador de paquetes PIP ya instalado.
-
-Si se requiere instalar otras librerías de Python, se debe realizar desde la Terminal integrada en VSC. Por ejemplo si se desea instalar la libreria seaborn:
-
-```text
-pip install seaborn
-```
-
-PIP es el gestionador de paquetes y librerías para Python, se puede acceder a su pagina [www.pypi.org](https://pypi.org/project/pip/)
-
-## Contenido
+## Contenido del repositorio
 
 La estructura base de este repositorio se muestra a continuación:
 
@@ -103,7 +89,19 @@ base_ia_tools
 └── otras carpetas...
 ```
 
-## Librerías
+## Python Container
+
+El contenedor o entorno de desarrollo viene con Python 3.10 y el gestionador de paquetes PIP ya instalado.
+
+Si se requiere instalar otras librerías de Python, se debe realizar desde la Terminal integrada en VSC. Por ejemplo si se desea instalar la libreria seaborn:
+
+```text
+pip install seaborn
+```
+
+PIP es el gestionador de paquetes y librerías para Python, se puede acceder a su pagina [www.pypi.org](https://pypi.org/project/pip/)
+
+## Librerías Container
 
 El entorno de programación viene con 162 librerías pre instaladas.
 
