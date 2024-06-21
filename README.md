@@ -18,7 +18,7 @@
 ## Tabla de contenidos
 
 - [Tabla de contenidos](#tabla-de-contenidos)
-- [Docker](#docker)
+- [Prerequisitos](#Prerequisitos)
 - [Python](#python)
 - [Contenido](#contenido)
 - [Librerías](#librerías)
