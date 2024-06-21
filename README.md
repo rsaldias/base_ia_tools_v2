@@ -6,7 +6,7 @@
   <!-- <h3 align="center">Logo</h3> -->
 
   <p align="center">
-    Repositorio del curso con la configuración base para Visual Studio Code
+    Este repositorio contiene los archivos y herramientas para ejecutar el entorno de desarrollo para python. Los estudiantes de éste curso pueden instalar esta configuración base en su computador y trabajar con Visual Studio Code
     <br>
     <!-- <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
     ·
@@ -29,7 +29,7 @@
 
 ## Docker
 
-La implementación utiliza Docker de tal forma de generar un entorno de desarrollo aislado del computador anfitrión. El contenedor generado utiliza como base linux y sobre el se instalan las aplicaciones y librerías necesarias para ejecutar los ejemplos de código Python que se utilizan en el curso. Si se requiere instalar otras librerías se debe realizar desde la Terminal, por ejemplo si se desea instalar la libreria simplekml:
+La implementación utiliza Docker de tal forma de generar un entorno de desarrollo aislado del computador anfitrión. El contenedor generado utiliza como base linux y sobre él se instalan las aplicaciones y librerías necesarias para ejecutar los ejemplos en lenguaje Python que se utilizan en el curso. Si se requiere instalar otras librerías se debe realizar desde la Terminal, por ejemplo si se desea instalar la libreria simplekml:
 
 ```text
 pip install simplekml
