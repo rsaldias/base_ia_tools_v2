@@ -121,7 +121,7 @@ code .
 9. Si todo va bien usted debería ver
 
 <p align="center">
-    <img src="img/todo_ok" alt="Logo" width=400>
+    <img src="img/todo_ok.png" alt="Logo" width=400>
 </p>
 
 El archivo 1_Ejecutar_Carpeta_en_Contenedor.ipynb contiene las instrucciones iniciales para ejecutar el contenedor.
