@@ -32,9 +32,10 @@
 - La implementación utiliza Docker de tal forma de generar un entorno de desarrollo aislado del computador anfitrión. El contenedor generado utiliza como base linux y sobre él se instalan las aplicaciones y librerías necesarias para ejecutar los ejemplos en lenguaje Python que se utilizan en el curso.
 - Usted debe tener instalado previamente las siguientes aplicaciones gratuitas:
 
-| Aplicación      | Descripción                                                                                         | Vínculo de descarga                                                        |
-|-----------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| docker-desktop         | $\color{Apricot}{Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software}$                    | https://www.docker.com/products/docker-desktop/     |
+| Aplicación          | Vínculo de descarga                                                        |
+|---------------------|----------------------------------------------------------------------------|
+| docker-desktop      | [https://www.docker.com](https://www.docker.com/products/docker-desktop/ ) |
+| visual studio code  | [https://code.visualstudio.com](https://code.visualstudio.com/download)    |
 
 Si se requiere instalar otras librerías se debe realizar desde la Terminal, por ejemplo si se desea instalar la libreria simplekml:
 
