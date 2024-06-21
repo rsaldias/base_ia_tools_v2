@@ -6,7 +6,7 @@
   <!-- <h3 align="center">Logo</h3> -->
 
   <p align="center">
-    Este repositorio contiene los archivos y herramientas para ejecutar el entorno de desarrollo para python. Los estudiantes de éste curso pueden instalar esta configuración base en su computador y trabajar con Visual Studio Code
+    Este repositorio contiene los archivos y herramientas para ejecutar un entorno de desarrollo para python. Los estudiantes de éste curso pueden instalar esta configuración base en su computador y trabajar con Visual Studio Code
     <br>
     <!-- <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
     ·
@@ -27,9 +27,16 @@
 <!-- - [Copyright and license](#copyright-and-license) -->
 
 
-## Docker
+## Prerequisitos
 
-La implementación utiliza Docker de tal forma de generar un entorno de desarrollo aislado del computador anfitrión. El contenedor generado utiliza como base linux y sobre él se instalan las aplicaciones y librerías necesarias para ejecutar los ejemplos en lenguaje Python que se utilizan en el curso. Si se requiere instalar otras librerías se debe realizar desde la Terminal, por ejemplo si se desea instalar la libreria simplekml:
+- La implementación utiliza Docker de tal forma de generar un entorno de desarrollo aislado del computador anfitrión. El contenedor generado utiliza como base linux y sobre él se instalan las aplicaciones y librerías necesarias para ejecutar los ejemplos en lenguaje Python que se utilizan en el curso.
+- Usted debe tener instalado previamente las siguientes aplicaciones gratuitas:
+
+| Aplicación      | Descripción                                                                                         | Vínculo de descarga                                                        |
+|-----------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| docker-desktop         | $\color{Apricot}{Docker es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software}$                    | https://www.docker.com/products/docker-desktop/     |
+
+Si se requiere instalar otras librerías se debe realizar desde la Terminal, por ejemplo si se desea instalar la libreria simplekml:
 
 ```text
 pip install simplekml
