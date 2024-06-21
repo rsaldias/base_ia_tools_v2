@@ -64,7 +64,7 @@ cd base_ia_tools_v2
 code .
 ```
    
-9. Si todo va bien usted debería ver
+9. Si todo va bien usted debería ver lo siguiente:
 
 <p align="center">
     <img src="img/todo_ok.png" alt="Logo" width=600>
