@@ -19,12 +19,13 @@
 
 - [Tabla de contenidos](#tabla-de-contenidos)
 - [Prerequisitos](#Prerequisitos)
+- [Instalar y ejecutar este entorno de desarrollo](#instalar-y-ejecutar-este-entorno-de-desarrollo)
 - [Python](#python)
 - [Contenido](#contenido)
 - [Librerías](#librerías)
 - [Creación y mantención](#creación-y-mantención)
 - [Agradecimientos](#agradecimientos)
-- [Instalar y ejecutar este entorno de desarrollo](#instalar-y-ejecutar-este-entorno-de-desarrollo)
+
 
 
 ## Prerequisitos
@@ -32,20 +33,52 @@
 - La implementación utiliza Docker lo que permite generar un entorno de desarrollo aislado del computador anfitrión. El contenedor generado utiliza como base linux y sobre él se instalan las aplicaciones y librerías necesarias para ejecutar los ejemplos en lenguaje Python que se utilizan en el curso.
 - Usted debe tener instaladas, previamente, las siguientes aplicaciones gratuitas:
 
-| Aplicación          | Vínculo de descarga                                                        |
-|---------------------|----------------------------------------------------------------------------|
-| docker-desktop      | [https://www.docker.com](https://www.docker.com/products/docker-desktop/ ) |
-| visual studio code  | [https://code.visualstudio.com](https://code.visualstudio.com/download)    |
-| LM Studio           | [https://lmstudio.ai](https://lmstudio.ai)    |
-| Git (Windows)       | [https://git-scm.com/download/win](https://git-scm.com/download/win)    |
-| Git (Mac)           | [https://git-scm.com/download/mac](https://git-scm.com/download/mac)    |
-| Git (Linux)         | `apt-get install git`    |
+| Aplicación               | Vínculo de descarga                                                        |
+|--------------------------|----------------------------------------------------------------------------|
+| docker-desktop           | [https://www.docker.com](https://www.docker.com/products/docker-desktop/ ) |
+| visual studio code (VSC) | [https://code.visualstudio.com](https://code.visualstudio.com/download)    |
+| LM Studio                | [https://lmstudio.ai](https://lmstudio.ai)                                 |
+| Git (Windows)            | [https://git-scm.com/download/win](https://git-scm.com/download/win)       |
+| Git (Mac)                | [https://git-scm.com/download/mac](https://git-scm.com/download/mac)       |
+| Git (Linux)              | `apt-get install git`                                                      |
+
+## Instalar y ejecutar este entorno de desarrollo
+
+1. Crear o seleccione una carpeta donde se descargara este repositorio
+2. Abrir la terminal sobre la carpeta anterior (click derecho sobre la carpeta: Abrir en Terminal (Win) | Servicios-> New terminal at folder (Mac))
+3. Desde la terminal: clonar este repositorio en la carpeta seleccionada de su computador
+   
+```text
+git clone https://github.com/rsaldias/base_ia_tools_v2
+```
+   
+5. Desde la terminal: ingresar a la carpeta base_ia_tools_v2
+
+```text
+cd base_ia_tools_v2
+```
+   
+7. Desde la terminal: abrir VSC sobre esta carpeta
+
+```text
+code .
+```
+   
+9. Si todo va bien usted debería ver
+
+<p align="center">
+    <img src="img/todo_ok.png" alt="Logo" width=600>
+</p>
+
+10. Desde Visual Studio Code, abrir el archivo **_1_Ejecutar_Carpeta_en_Contenedor.ipynb_** contiene las instrucciones iniciales para ejecutar el contenedor.
+
+
 
 ## Python
 
 El entorno de desarrollo viene con Python 3.10 y el gestionador de paquetes PIP ya instalado.
 
-Si se requiere instalar otras librerías de Python, se debe realizar desde la Terminal. Por ejemplo si se desea instalar la libreria seaborn:
+Si se requiere instalar otras librerías de Python, se debe realizar desde la Terminal integrada en VSC. Por ejemplo si se desea instalar la libreria seaborn:
 
 ```text
 pip install seaborn
@@ -90,42 +123,11 @@ Algunas de las librerías son las siguientes:
 - nbconvert
 ```
 
-Para ver el total de librerías ejecute el siguiente comando en el Terminal:
+Para ver el total de librerías ejecute el siguiente comando en el Terminal integrada en VSC:
 
 ```text
 pip list
 ```
-
-## Instalar y ejecutar este entorno de desarrollo
-
-1. Crear o seleccione una carpeta donde se descargara este repositorio
-2. Abrir la terminal sobre la carpeta anterior (click derecho sobre la carpeta: Abrir en Terminal (Win) | Servicios-> New terminal at folder (Mac))
-3. Desde la terminal: clonar este repositorio en la carpeta seleccionada de su computador
-   
-```text
-git clone https://github.com/rsaldias/base_ia_tools_v2
-```
-   
-5. Desde la terminal: ingresar a la carpeta base_ia_tools_v2
-
-```text
-cd base_ia_tools_v2
-```
-   
-7. Desde la terminal: abrir VSC sobre esta carpeta
-
-```text
-code .
-```
-   
-9. Si todo va bien usted debería ver
-
-<p align="center">
-    <img src="img/todo_ok.png" alt="Logo" width=600>
-</p>
-
-10. Desde Visual Studio Code, abrir el archivo **_1_Ejecutar_Carpeta_en_Contenedor.ipynb_** contiene las instrucciones iniciales para ejecutar el contenedor.
-
 
 
 ## Creación y mantención
