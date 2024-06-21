@@ -24,8 +24,7 @@
 - [Librerías](#librerías)
 - [Creación y mantención](#creación-y-mantención)
 - [Agradecimientos](#agradecimientos)
-- [¿Cómo instalar y ejecutar este entorno de desarrollo?](#)
-<!-- - [Copyright and license](#copyright-and-license) -->
+- [Instalar y ejecutar este entorno de desarrollo](#instalar-y-ejecutar-este-entorno-de-desarrollo)
 
 
 ## Prerequisitos
@@ -99,7 +98,7 @@ Para ver el total de librerias ejecute el siguiente comando en el Terminal:
 pip list
 ```
 
-## ¿Cómo instalar y ejecutar este entorno de desarrollo?
+## Instalar y ejecutar este entorno de desarrollo
 
 1. Clonar
 
