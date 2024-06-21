@@ -44,7 +44,7 @@
 
 ## Instalar y ejecutar este entorno de desarrollo
 
-1. Crear o seleccione una carpeta donde se descargara este repositorio
+1. Crear o seleccionar una carpeta donde se descargará este repositorio
 2. Abrir la terminal sobre la carpeta anterior (click derecho sobre la carpeta: Abrir en Terminal (Win) | Servicios-> New terminal at folder (Mac))
 3. Desde la terminal: clonar este repositorio en la carpeta seleccionada de su computador
    
