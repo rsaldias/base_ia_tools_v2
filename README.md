@@ -100,19 +100,19 @@ pip list
 
 1. Crear o seleccione una carpeta donde se descargara este repositorio
 2. Abrir la terminal sobre la carpeta anterior (click derecho sobre la carpeta: Abrir en Terminal (Win) | Servicios-> New terminal at folder (Mac))
-3. Clonar este repositorio en una carpeta local de su computador
+3. Desde la terminal: clonar este repositorio en la carpeta seleccionada de su computador
    
 ```text
 git clone https://github.com/rsaldias/base_ia_tools_v2
 ```
    
-5. Ingresar a la carpeta base_ia_tools_v2
+5. Desde la terminal: ingresar a la carpeta base_ia_tools_v2
 
 ```text
 cd base_ia_tools_v2
 ```
    
-7. Para abrir VSC sobre esta carpeta, ejecutar
+7. Desde la terminal: abrir VSC sobre esta carpeta
 
 ```text
 code .
@@ -121,10 +121,10 @@ code .
 9. Si todo va bien usted debería ver
 
 <p align="center">
-    <img src="img/todo_ok.png" alt="Logo" width=400>
+    <img src="img/todo_ok.png" alt="Logo" width=600>
 </p>
 
-El archivo 1_Ejecutar_Carpeta_en_Contenedor.ipynb contiene las instrucciones iniciales para ejecutar el contenedor.
+10. Desde Visual Studio Code, abrir el archivo **_1_Ejecutar_Carpeta_en_Contenedor.ipynb_** contiene las instrucciones iniciales para ejecutar el contenedor.
 
 
 
