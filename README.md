@@ -42,7 +42,7 @@
 | Git (Mac)                | [https://git-scm.com/download/mac](https://git-scm.com/download/mac)       |
 | Git (Linux)              | `apt-get install git`                                                      |
 
-## Instalar y ejecutar este entorno de desarrollo
+## Instalar y ejecutar el entorno de desarrollo
 
 1. Crear o seleccionar una carpeta donde se descargará este repositorio
 2. Abrir la terminal sobre la carpeta anterior (click derecho sobre la carpeta: Abrir en Terminal (Win) | Servicios-> New terminal at folder (Mac))
