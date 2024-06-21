@@ -6,7 +6,7 @@
   <!-- <h3 align="center">Logo</h3> -->
 
   <p align="center">
-    Este repositorio contiene los archivos y herramientas para ejecutar el entorno de desarrollo para python. Los estudiantes de éste curso pueden instalar esta configuración base en su computador y trabajar con Visual Studio Code
+    Este repositorio contiene los archivos y herramientas para ejecutar un entorno de desarrollo para python. Los estudiantes de éste curso pueden instalar esta configuración base en su computador y trabajar con Visual Studio Code
     <br>
     <!-- <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
     ·
@@ -18,28 +18,40 @@
 ## Tabla de contenidos
 
 - [Tabla de contenidos](#tabla-de-contenidos)
-- [Docker](#docker)
+- [Prerequisitos](#Prerequisitos)
 - [Python](#python)
 - [Contenido](#contenido)
 - [Librerías](#librerías)
 - [Creación y mantención](#creación-y-mantención)
 - [Agradecimientos](#agradecimientos)
-<!-- - [Copyright and license](#copyright-and-license) -->
+- [Instalar y ejecutar este entorno de desarrollo](#instalar-y-ejecutar-este-entorno-de-desarrollo)
 
 
-## Docker
+## Prerequisitos
 
-La implementación utiliza Docker de tal forma de generar un entorno de desarrollo aislado del computador anfitrión. El contenedor generado utiliza como base linux y sobre él se instalan las aplicaciones y librerías necesarias para ejecutar los ejemplos en lenguaje Python que se utilizan en el curso. Si se requiere instalar otras librerías se debe realizar desde la Terminal, por ejemplo si se desea instalar la libreria simplekml:
+- La implementación utiliza Docker lo que permite generar un entorno de desarrollo aislado del computador anfitrión. El contenedor generado utiliza como base linux y sobre él se instalan las aplicaciones y librerías necesarias para ejecutar los ejemplos en lenguaje Python que se utilizan en el curso.
+- Usted debe tener instaladas, previamente, las siguientes aplicaciones gratuitas:
 
-```text
-pip install simplekml
-```
-
-PIP es el gestionador de paquetes y librerías para Python, se puede acceder a su pagina [www.pypi.org](https://pypi.org/project/pip/)
+| Aplicación          | Vínculo de descarga                                                        |
+|---------------------|----------------------------------------------------------------------------|
+| docker-desktop      | [https://www.docker.com](https://www.docker.com/products/docker-desktop/ ) |
+| visual studio code  | [https://code.visualstudio.com](https://code.visualstudio.com/download)    |
+| LM Studio           | [https://lmstudio.ai](https://lmstudio.ai)    |
+| Git (Windows)       | [https://git-scm.com/download/win](https://git-scm.com/download/win)    |
+| Git (Mac)           | [https://git-scm.com/download/mac](https://git-scm.com/download/mac)    |
+| Git (Linux)         | `apt-get install git`    |
 
 ## Python
 
 El entorno de desarrollo viene con Python 3.10 y el gestionador de paquetes PIP ya instalado.
+
+Si se requiere instalar otras librerías de Python, se debe realizar desde la Terminal. Por ejemplo si se desea instalar la libreria seaborn:
+
+```text
+pip install seaborn
+```
+
+PIP es el gestionador de paquetes y librerías para Python, se puede acceder a su pagina [www.pypi.org](https://pypi.org/project/pip/)
 
 ## Contenido
 
@@ -57,8 +69,6 @@ base_ia_tools
     ├── [imagenes usadas algunos archivos .ipynb]
 └── otras carpetas...
 ```
-Uso: el archivo 1_Ejecutar_Carpeta_en_Contenedor.ipynb contiene las instrucciones iniciales para ejecutar el contenedor.
-
 
 ## Librerías
 
@@ -87,6 +97,13 @@ Para ver el total de librerias ejecute el siguiente comando en el Terminal:
 ```text
 pip list
 ```
+
+## Instalar y ejecutar este entorno de desarrollo
+
+1. Clonar
+
+El archivo 1_Ejecutar_Carpeta_en_Contenedor.ipynb contiene las instrucciones iniciales para ejecutar el contenedor.
+
 
 
 ## Creación y mantención
