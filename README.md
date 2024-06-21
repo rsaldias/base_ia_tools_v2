@@ -39,6 +39,10 @@
 | LM Studio           | [https://lmstudio.ai](https://lmstudio.ai)    |
 
 
+## Python
+
+El entorno de desarrollo viene con Python 3.10 y el gestionador de paquetes PIP ya instalado.
+
 Si se requiere instalar otras librerías se debe realizar desde la Terminal, por ejemplo si se desea instalar la libreria simplekml:
 
 ```text
@@ -46,10 +50,6 @@ pip install simplekml
 ```
 
 PIP es el gestionador de paquetes y librerías para Python, se puede acceder a su pagina [www.pypi.org](https://pypi.org/project/pip/)
-
-## Python
-
-El entorno de desarrollo viene con Python 3.10 y el gestionador de paquetes PIP ya instalado.
 
 ## Contenido
 
