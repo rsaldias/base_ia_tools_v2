@@ -70,7 +70,7 @@ code .
     <img src="img/todo_ok.png" alt="Logo" width=600>
 </p>
 
-10. Desde Visual Studio Code, abrir el archivo **_1_Ejecutar_Carpeta_en_Contenedor.ipynb_** contiene las instrucciones iniciales para ejecutar el contenedor.
+10. Desde Visual Studio Code, abrir el archivo **_1_Ejecutar_Carpeta_en_Contenedor.ipynb_** el cual se encuentra en la carpeta herramientas. Este archivo contiene las instrucciones iniciales para ejecutar el contenedor.
 
 
 
