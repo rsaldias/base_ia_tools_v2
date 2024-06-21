@@ -24,6 +24,7 @@
 - [Librerías](#librerías)
 - [Creación y mantención](#creación-y-mantención)
 - [Agradecimientos](#agradecimientos)
+- [¿Cómo instalar y ejecutar este entorno de desarrollo?](#)
 <!-- - [Copyright and license](#copyright-and-license) -->
 
 
@@ -37,7 +38,9 @@
 | docker-desktop      | [https://www.docker.com](https://www.docker.com/products/docker-desktop/ ) |
 | visual studio code  | [https://code.visualstudio.com](https://code.visualstudio.com/download)    |
 | LM Studio           | [https://lmstudio.ai](https://lmstudio.ai)    |
-
+| Git (Windows)       | [https://git-scm.com/download/win](https://git-scm.com/download/win)    |
+| Git (Mac)           | [https://git-scm.com/download/mac](https://git-scm.com/download/mac)    |
+| Git (Linux)         | `apt-get install git`    |
 
 ## Python
 
@@ -67,8 +70,6 @@ base_ia_tools
     ├── [imagenes usadas algunos archivos .ipynb]
 └── otras carpetas...
 ```
-Uso: el archivo 1_Ejecutar_Carpeta_en_Contenedor.ipynb contiene las instrucciones iniciales para ejecutar el contenedor.
-
 
 ## Librerías
 
@@ -97,6 +98,13 @@ Para ver el total de librerias ejecute el siguiente comando en el Terminal:
 ```text
 pip list
 ```
+
+## ¿Cómo instalar y ejecutar este entorno de desarrollo?
+
+1. Clonar
+
+El archivo 1_Ejecutar_Carpeta_en_Contenedor.ipynb contiene las instrucciones iniciales para ejecutar el contenedor.
+
 
 
 ## Creación y mantención
