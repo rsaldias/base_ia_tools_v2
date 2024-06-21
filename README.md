@@ -36,7 +36,7 @@
 |---------------------|----------------------------------------------------------------------------|
 | docker-desktop      | [https://www.docker.com](https://www.docker.com/products/docker-desktop/ ) |
 | visual studio code  | [https://code.visualstudio.com](https://code.visualstudio.com/download)    |
-| visual studio code  | [https://lmstudio.ai](https://lmstudio.ai)    |
+| LM Studio           | [https://lmstudio.ai](https://lmstudio.ai)    |
 
 
 Si se requiere instalar otras librerías se debe realizar desde la Terminal, por ejemplo si se desea instalar la libreria simplekml:
