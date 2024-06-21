@@ -43,10 +43,10 @@
 
 El entorno de desarrollo viene con Python 3.10 y el gestionador de paquetes PIP ya instalado.
 
-Si se requiere instalar otras librerías de Python, se debe realizar desde la Terminal. Por ejemplo si se desea instalar la libreria simplekml:
+Si se requiere instalar otras librerías de Python, se debe realizar desde la Terminal. Por ejemplo si se desea instalar la libreria seaborn:
 
 ```text
-pip install simplekml
+pip install seaborn
 ```
 
 PIP es el gestionador de paquetes y librerías para Python, se puede acceder a su pagina [www.pypi.org](https://pypi.org/project/pip/)
