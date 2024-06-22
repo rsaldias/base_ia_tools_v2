@@ -37,7 +37,6 @@
 |--------------------------|----------------------------------------------------------------------------|
 | docker-desktop           | [https://www.docker.com](https://www.docker.com/products/docker-desktop/ ) |
 | visual studio code (VSC) | [https://code.visualstudio.com](https://code.visualstudio.com/download)    |
-| LM Studio                | [https://lmstudio.ai](https://lmstudio.ai)                                 |
 | Git (Windows)            | [https://git-scm.com/download/win](https://git-scm.com/download/win)       |
 | Git (Mac)                | [https://git-scm.com/download/mac](https://git-scm.com/download/mac)       |
 | Git (Linux)              | `apt-get install git`                                                      |
