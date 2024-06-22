@@ -88,7 +88,7 @@ base_ia_tools
 └── otras carpetas...
 ```
 
-## Python Container
+## Python *Container*
 
 El contenedor o entorno de desarrollo viene con Python 3.10 y el gestionador de paquetes PIP ya instalado.
 
@@ -100,9 +100,9 @@ pip install seaborn
 
 PIP es el gestionador de paquetes y librerías para Python, se puede acceder a su pagina [www.pypi.org](https://pypi.org/project/pip/)
 
-## Librerías Container
+## Librerías del *Container*
 
-El entorno de programación viene con 162 librerías pre instaladas.
+El entorno de programación viene con cerca de 160 librerías pre-instaladas.
 
 Algunas de las librerías son las siguientes:
 
