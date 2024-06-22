@@ -129,10 +129,14 @@ pip list
 
 ## Creación y mantención
 
-**Ricardo Saldías F.**
+**M.Sc Ricardo Saldías F.**
 
 email
 - ri.saldias@profesor.duoc.cl
+
+web sites
+- <https://ricardosaldi.wixsite.com/mysite>
+- <https://ciiaa.org>
   
 github
 - <https://github.com/rsaldias>
