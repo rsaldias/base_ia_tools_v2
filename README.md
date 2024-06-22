@@ -6,7 +6,7 @@
   <!-- <h3 align="center">Logo</h3> -->
 
   <p align="center">
-    Este repositorio contiene los archivos y herramientas para ejecutar un entorno de desarrollo para python. Los estudiantes de éste curso pueden instalar esta configuración base en su computador y trabajar con Visual Studio Code
+    Este repositorio contiene los archivos y herramientas para ejecutar un entorno de desarrollo para python. Los estudiantes del curso pueden instalar esta configuración base en su computador y trabajar con Visual Studio Code
     <br>
     <!-- <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
     ·
