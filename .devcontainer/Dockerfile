@@ -52,10 +52,12 @@
     RUN pip install rich
     RUN pip install tqdm
     RUN pip install futures
-    RUN pip install pyautogen
     RUN pip install nbconvert
     RUN pip install pandoc
     RUN pip install ipypublish
+    RUN pip install goldenverba
+    RUN pip install litellm
+    RUN pip install pyautogen
     
     
     
