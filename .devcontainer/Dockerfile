@@ -30,7 +30,7 @@
     RUN apt-get -y install texlive-xetex texlive-fonts-recommended texlive-plain-generic pandoc
     
     # Ollama
-    RUN curl -fsSL http://ollama.com/instal.sh | sh
+    RUN curl -fsSL https://ollama.com/install.sh | sh
     
     # For docs
     RUN npm install --global yarn
